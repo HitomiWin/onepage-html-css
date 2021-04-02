@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(106, 122, 106);
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color:rgb(100, 119, 87);
+    font-weight: 700;
+}
+h2, h3{
+    margin-top:1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p{
+    color:rgb(57, 57, 59);
+    font-weight: 400;  
+    /* text-align: justify;  */
+    line-height: 1.8rem;
+}
+
+main{
+    background-color: white;    
+    padding-right:0;
+    padding-left:0;
+}
+
+.jumbotron-extend{
+    background:url(images/glasses-min.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom:0;
+}
+
+.site-name h1 {
+    color:rgb(187, 115, 115);
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.jumbotron-container{
+    position: relative;
+    top: 50%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-black {
+    border-radius: 0;/*no rounds the courner*/
+    background-color: #000;
+    color: #fff;
+    font-family: 'Avenir', serif;
+
+}
+
+.btn-black:hover {
+     background-color: #fff;
+     color: #000;
+}
+/*.usups .contents{
+    padding:2rem 2rem;
+}*/
+/* .item{
+    padding:1rem 2rem;
+} */
+
+.container{
+    padding-right:0;
+    padding-left: 0;
+}
+
+.usps{
+    background-color: rgb(247, 241, 236);
+    /* padding-right:0;
+    padding-left:0; */
+}
+
+.img-responsive{
+   width:100%;
+   resize:both ;
+} 
+#skills{
+    background-color: rgb(223, 241, 241);
+}
+.skills .row{
+    display:flex;
+    padding:1rem 0;
+}
+
+.skills .row:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.container img {
+border-radius: 10% 10%;
+
+}
+
+.container-fluid{
+    padding:2rem 2rem;
+}
+
+
+.blogs{
+    background-color: rgb(247, 241, 236);
+    padding-top:2rem;
+}
+.blogs .row{
+    padding:2rem 1rem;
+}
+
+.aside ul{
+list-style: none;
+padding:0;
+
+}
+
+.blogs h2{
+    color:rgb(54, 52, 51);
+}
+
+.readmore{
+    color:rgb(106, 42, 180);
+    font-size: 1.2rem;
+    font-weight:700;
+}
+
+/* .aside{
+    display:flex;
+} */
+.aside h3{
+    text-align: left;
+    color:rgb(175, 175, 68);
+}
+
+.aside li{
+    font-size:1.5rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.aside a{
+    color:rgb(102, 102, 168);
+    
+}
+
+#form{
+    background-color:rgb(223, 241, 241) ;
+}
+
+.form{
+    padding:3rem 5rem;
+}
+
+.footer .container-fluid{
+    background-color:rgb(28, 53, 28);
+}
+.footer h3{
+    color:rgb(127, 167, 134);
+    text-align: left;
+}
+.footer p{
+    color:whitesmoke;
+}
+
+.icons img{
+    display:block;
+    width:2rem;
+    height:2rem;
+    margin:0.5rem;
+}
+
+/*large size*/
+@media only screen and (min-width: 992px) {
+    p{
+        text-align: justify; 
+    }
+    .skills {
+        padding:2rem 8rem;
+    }
+    .skills h2{
+        text-align: left;
+    }
+
+    .blogs h3 {
+        text-align: left;
+    
+    }
+
+}
+/*medium size*/
+@media only screen and (min-width:768px)and (max-width:992px){
+     .aside li{
+         font-size: 1rem;
+
+     }
+
+}
+
+
+/*small size*/
+/*@media only screen and (max-width: 576px){
+    .container-fluid{
+    padding:2rem 2rem;
+    }
+    .blogs h3, .skills h2 {
+        margin-top:1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .blogs p, .skills p{
+        text-align: justify;
+    }
+    
+}*/
